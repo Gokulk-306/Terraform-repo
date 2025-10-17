@@ -1,0 +1,7 @@
+aws_region = "us-east-2"
+ami_id = "ami-0cfde0ea8edd312d4"
+instance_type = "t3.micro"
+sg_name = "demo_sg"
+instance_name = "Web-Server"
+subnet_id = "subnet-0862aaba6928cbc39"
+vpc_id = "vpc-0b2314f15989bf7e3"
