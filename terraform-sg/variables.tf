@@ -8,7 +8,11 @@ variable "ami_id" {
   description = "AMI ID for EC2"
   default     = "ami-0cfde0ea8edd312d4"
 }
-
+variable "key_name" {
+  description = "Existing EC2 key pair name"
+  type        = string
+  default     = "IGW"   # <-- Make sure this matches your AWS key pair name
+}
 variable "instance_type" {
   type        = string
   default     = "t3.micro"
